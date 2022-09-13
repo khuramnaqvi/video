@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'chat']);
+Route::get('/', [App\Http\Controllers\chat::class, 'chat']);
